@@ -78,7 +78,9 @@
   ```sql
   CREATE DATABASE user_admin_service;
 ### 2. Установка зависимостей
-  ```go mod init user_admin_service
-  ```go mod tidy
+  ```txt
+  go mod init user_admin_service
+  go mod tidy;
 ### 3. Запуск сервера
-  ```go run main.go
+  ```txt
+  go run main.go;

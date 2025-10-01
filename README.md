@@ -67,18 +67,3 @@
 | База данных      | MySQL ([go-sql-driver/mysql](https://github.com/go-sql-driver/mysql)) |
 | Шаблоны          | HTML5 + `text/template` |
 | Стили            | CSS3 с `transitions` и `@keyframes` |
-
----
-
-## ▶️ Запуск проекта
-
-### 1. Настройка базы данных
-- Запусти **XAMPP** (или другой MySQL-сервер)
-- Создай базу данных:
-  ```sql
-  CREATE DATABASE user_admin_service;
-### 2. Установка зависимостей
-  go mod init user_admin_service
-  go mod tidy
-### 3. Запуск сервера
-  go run main.go
